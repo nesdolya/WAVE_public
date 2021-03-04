@@ -16,4 +16,4 @@ When this research reached publication the model code will be shared here for ot
 ## Scripts
 |Name|Description|Collaborators|
 |----|-----------|-------------|
-|listen_aishub.py| A script developed to listen to the incoming stream of AIS data from AISHub, a crowdsourced data streaming platform. This basic script runs indefinately, storing each days AIS NMEA format data as a text file. Each month is then archived in a .zip folder. This program is currently running on a cloud server using supervisord to monitor its progress. Manual inspection is done regularly as well.| - |
+|listen_aishub.py| A script developed to listen to the incoming stream of AIS data from AISHub, a crowdsourced data streaming platform. This basic script runs indefinately, storing each days AIS NMEA format data as a text file. Each month is then archived in a .zip folder. This program is currently running on a cloud server using supervisord to monitor its progress. Manual inspection is done regularly as well. Currently the parameters are hardcoded on lines 26, 27, 30, 44, 65, and 113.| - |
