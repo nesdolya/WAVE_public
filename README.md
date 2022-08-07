@@ -7,7 +7,7 @@ The WAVE Project's goals are to understand whale-watching activities using Autom
 
 Please visit the WAVE Project website to learn more: https://waveproject.ca/
 
-A table of the scripts developed for this project along with their descriptions can be found at the bottom of this page. They were developed using Python 2.7, 3.8 and 3.9 for use on Windows and Linux (Ubuntu) systems.
+A table of the scripts developed for this project along with their descriptions can be found at the bottom of this page. They were developed using Python 2.7, 3.8 and 3.9 for use on Windows or Linux (Ubuntu) systems.
 
 ## Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS)
 Andrea Nesdoly (MSc Thesis Work)
