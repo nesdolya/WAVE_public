@@ -12,15 +12,15 @@ Andrea Nesdoly (MSc Thesis Work)
 
 The WAVE Project has afforded an opporuntity to model whale-watching vessel behavior with AIS and classify this behaviour. The MSc student (Andrea Nesdoly/myself) has tested three established classification models to find when the vessels are observing wildlife and when they are not. One of these successful models was then deployed to determine if behavior classification utlizing machine learning is feasible when scaled up to the whole whale-watching vessel fleet surrounding Vancouver Island, Coastal British Columbia.
 
-Publications to come.
-MSc Thesis Reference: Nesdoly, A. (2021). Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS). [Master Thesis, University of Victoria]. UVicSpace. http://hdl.handle.net/1828/13300
+Publications to come.  
+For detailed information on the data preparation, methods development, parameterization, and results of this study visit: Nesdoly, A. (2021). Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS). [Master Thesis, University of Victoria]. UVicSpace. http://hdl.handle.net/1828/13300
 
 ### Scripts and Notebooks
-The scripts used in this research were developed using Anaconda and Python 3.8 and 3.9. Established Python libraries were utilized such as:
+The scripts used in this research were developed using Anaconda and Python 3.8 and 3.9. Established Python libraries that were used for statistical analysis and model development include:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scipy](https://scipy.org/)
 - [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
-- [statsmodels](https://www.statsmodels.org/stable/index.html)
+- [statsmodels](https://www.statsmodels.org/stable/index.html) 
 
 ## Table of Scripts and Notebooks
 |Name|Description|Collaborators|
