@@ -7,6 +7,8 @@ The WAVE Project's goals are to understand whale-watching activities using Autom
 
 Please visit the WAVE Project website to learn more: https://waveproject.ca/
 
+A table of the scripts developed for this project along with their descriptions can be found at the bottom of this page. They were developed using Python 2.7, 3.8 and 3.9 for use on Windows and Linux (Ubuntu) systems.
+
 ## Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS)
 Andrea Nesdoly (MSc Thesis Work)
 
@@ -15,8 +17,7 @@ The WAVE Project has afforded an opporuntity to model whale-watching vessel beha
 Publications to come.  
 For detailed information on the data preparation, methods development, parameterization, and results of this study visit: Nesdoly, A. (2021). Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS). [Master Thesis, University of Victoria]. UVicSpace. http://hdl.handle.net/1828/13300
 
-### Scripts
-The scripts used in this research were developed using Anaconda and Python 3.8 and 3.9. Established Python libraries that were used for statistical analysis and model development include:
+The scripts developed specifically for this research were developed using Anaconda and Python 3.8 and 3.9. Established Python libraries that were used for statistical analysis and model development include:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scipy](https://scipy.org/)
 - [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
@@ -27,5 +28,5 @@ The supervised Hidden Markov Model required a custom subclass [waveHMM.py](https
 ## Table of Scripts and Notebooks
 |Name|Description|Collaborators|
 |----|-----------|-------------|
-|listen_aishub.py| A script developed to listen to the incoming stream of AIS data from AISHub, a crowdsourced data streaming platform. This basic script runs indefinately, storing each days AIS NMEA format data as a text file. Each month is then archived in a .zip folder. This program was running on a cloud server using supervisord to monitor its progress. Manual inspection is done regularly as well. Currently the parameters are hardcoded on lines 26, 27, 30, 44, 65, and 113.| Andrea Nesdoly |
+|listen_aishub.py| A script developed to listen to the incoming stream of AIS data from AISHub, a crowdsourced data streaming platform. This basic script runs indefinately, storing each days AIS NMEA format data as a text file. Each month is then archived in a .zip folder. This program was running on a linux based (Ubuntu) cloud server using supervisord to monitor its progress. Manual inspection is done regularly as well. Currently the parameters are hardcoded on lines 26, 27, 30, 44, 65, and 113.| Andrea Nesdoly |
 |waveHMM.py| HMM development: A custom subclass that inherts the hmmlearn.base.BaseHMM methods, developed to utilize custom emission probability density functions. An example on how to use the subclass is provided at the bottom of the script.| Andrea Nesdoly |
