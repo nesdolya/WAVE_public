@@ -1,6 +1,5 @@
 # Whale-watchin AIS Vessel movement Evaluation Project Public Repository
-## Scripts Utilized in the WAVE Project
-### SURREAL & CORAL Groups, University of Victoria, Department of Geography
+SURREAL & CORAL Groups, University of Victoria, Department of Geography
 
 ## WAVE Project
 The WAVE Project's goals are to understand whale-watching activities using Automatic Identification System (AIS), and to determine the feasibility of utilizing AIS data as a tool for informing whale-watching operations, vessel traffic management, conservation, and policy.
