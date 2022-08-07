@@ -17,6 +17,7 @@ The scripts used in this research were developed using Anaconda and Python 3.8 a
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scipy](https://scipy.org/)
 - [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
+- [statsmodels](https://www.statsmodels.org/stable/index.html)
 
 ## Table of Scripts and Notebooks
 |Name|Description|Collaborators|
