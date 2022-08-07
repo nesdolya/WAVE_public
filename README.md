@@ -10,17 +10,19 @@ Please visit the WAVE Project website to learn more: https://waveproject.ca/
 ## Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS)
 Andrea Nesdoly (MSc Thesis Work)
 
-The WAVE Project has afforded an opporuntity to model whale-watching vessel behavior with AIS and classify this behaviour. The MSc student (Andrea Nesdoly/myself) has tested three established classification models to find when the vessels are observing wildlife and when they are not. One of these successful models was then deployed to determine if behavior classification utlizing machine learning is feasible when scaled up to the whole whale-watching vessel fleet surrounding Vancouver Island, Coastal British Columbia.
+The WAVE Project has afforded an opporuntity to model whale-watching vessel behavior with AIS and classify this behaviour. The MSc student on this project (Andrea Nesdoly/myself) has tested three established classification models to find when the vessels are observing wildlife and when they are not (Phase 1). One of these successful models was then deployed to determine if behavior classification utlizing machine learning is feasible when scaled up to the whole whale-watching vessel fleet surrounding Vancouver Island, Coastal British Columbia (Phase 2).
 
 Publications to come.  
 For detailed information on the data preparation, methods development, parameterization, and results of this study visit: Nesdoly, A. (2021). Modelling marine vessels engaged in wildlife-viewing behaviour using Automatic Identification Systems (AIS). [Master Thesis, University of Victoria]. UVicSpace. http://hdl.handle.net/1828/13300
 
-### Scripts and Notebooks
+### Scripts
 The scripts used in this research were developed using Anaconda and Python 3.8 and 3.9. Established Python libraries that were used for statistical analysis and model development include:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scipy](https://scipy.org/)
 - [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
 - [statsmodels](https://www.statsmodels.org/stable/index.html) 
+
+Research Phase 1: The Hidden Markov Model required a custom subclass [waveHMM.py]() of the hmmlearn API to utilize custom emission probability density functions. This subclass inherts the hmmlearn.base.BaseHMM class methods. The initial, transition, and emission probabilities were derived through statistical analysis before being utilized by the waveHMM subclass. Continuous probability distribution functions were fit the SOG profiles for the wildlife-viewing and non-viewing states, and the optimal probability distribution functions were fitted by minimizing the negative log-likelihood.|
 
 ## Table of Scripts and Notebooks
 |Name|Description|Collaborators|
