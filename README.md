@@ -16,6 +16,7 @@ The WAVE Project has afforded an opporuntity to model whale-watching vessel beha
 The scripts used in this research were developed using Anaconda and Python 3.8 and 3.9. Established Python libraries were utilized such as:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scipy](https://scipy.org/)
+- [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/)
 
 ## Table of Scripts and Notebooks
 |Name|Description|Collaborators|
